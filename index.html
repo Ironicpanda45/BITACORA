@@ -1,0 +1,261 @@
+
+Claro, aquí tienes una versión simplificada de las listas (<ul>) en tu código HTML, manteniendo los elementos <code> donde corresponde:
+
+    html
+    Copiar código
+    <!DOCTYPE html>
+    <html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Bitácora de Clases</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <img src="logo.png" alt="Logo de la Bitácora">
+            <h2>Bitácora</h2>
+        </header>
+    
+        <nav class="rainbow-box">
+            <h2>Parcial 1</h2>
+            <a href="#html">HTML</a>
+            <a href="#texto-html">Texto en HTML</a>
+            <a href="#imagenes-html">Imágenes en HTML</a>
+            <a href="#enlaces-html">Enlaces en HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#proceso-diseno">Proceso de Diseño</a>
+        </nav>
+    
+        <section id="html" class="titulo">
+            <h1>HTML</h1>
+        </section>
+        <div class="contenedor-secciones">
+            <section class="izquierda">
+                <h2>Ideas Principales</h2>
+                <ul class="texto1">
+                    <li>HTML crea páginas web.</li>
+                    <li>HTML significa HyperText Markup Language.</li>
+                    <li>HTML5 incluye audio y video.</li>
+                    <li>Los atributos cambian el comportamiento de las etiquetas.</li>
+                </ul>
+            </section>
+            <section class="derecha">
+                <h2>Apuntes de la Clase</h2>
+                <ul class="texto2">
+                    <li>La estructura básica es <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>.</li>
+                    <li>Etiquetas comunes son <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code>.</li>
+                    <li>Usar <code>&lt;img&gt;</code> con el atributo <code>src</code> para imágenes.</li>
+                    <li>Crear enlaces con <code>&lt;a&gt;</code> y usar <code>href</code>.</li>
+                    <li>Comentarios en HTML: <code>&lt;!-- comentario --&gt;</code>.</li>
+                </ul>
+                <img src="html.gif" alt="Ejemplo de HTML">
+            </section>
+        </div>
+    
+        <footer>
+            <h2>Resumen</h2>
+            <p>HTML es clave para hacer sitios web. Organiza la información con etiquetas. Con HTML5, hay nuevas funciones que mejoran los sitios.</p>
+        </footer>
+    
+        <section id="texto-html" class="titulo">
+            <h1>Texto en HTML</h1>
+        </section>
+        <div class="contenedor-secciones">
+            <section class="izquierda">
+                <h2>Ideas Principales</h2>
+                <ul class="texto1">
+                    <li>Organiza el texto en párrafos, encabezados y listas.</li>
+                    <li>Usar <code>&lt;strong&gt;</code> y <code>&lt;em&gt;</code> para resaltar texto.</li>
+                    <li>Mejora la comprensión con texto resaltado.</li>
+                    <li>Listas bien estructuradas ayudan a navegar.</li>
+                    <li>Elige listas ordenadas o desordenadas según el caso.</li>
+                </ul>
+            </section>
+            <section class="derecha">
+                <h2>Apuntes de la Clase</h2>
+                <ul class="texto2">
+                    <li>Usar <code>&lt;p&gt;</code> para párrafos y <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> para encabezados.</li>
+                    <li><code>&lt;strong&gt;</code> y <code>&lt;em&gt;</code> resaltan texto.</li>
+                    <li>Crear listas ordenadas (<code>&lt;ol&gt;</code>) y desordenadas (<code>&lt;ul&gt;</code>).</li>
+                    <li>Crear enlaces a otras partes del documento con anclas.</li>
+                    <li>Anclas con <code>&lt;a href="#ancla"&gt;Texto del enlace&lt;/a&gt;</code>.</li>
+                </ul>
+                <img src="1_Sg3-Nd9RC38uxn55cf6S_Q.gif" alt="Ejemplo de Texto en HTML">
+            </section>
+        </div>
+    
+        <footer>
+            <h2>Resumen</h2>
+            <p>Usar encabezados, párrafos y listas es clave para la legibilidad. Seguir buenas prácticas con elementos especiales y anclas mejora la experiencia del usuario.</p>
+        </footer>
+    
+        <section id="imagenes-html" class="titulo">
+            <h1>Imágenes en HTML</h1>
+        </section>
+        <div class="contenedor-secciones">
+            <section class="izquierda">
+                <h2>Ideas Principales</h2>
+                <ul class="texto1">
+                    <li>Optimiza imágenes para tiempos de carga más rápidos.</li>
+                    <li>Usar formatos adecuados (jpg, png, gif).</li>
+                    <li>Imágenes relevantes mejoran el contenido.</li>
+                    <li>Usar <code>alt</code> para accesibilidad.</li>
+                    <li>Elegir formato adecuado (JPEG o PNG) según el uso.</li>
+                </ul>
+            </section>
+            <section class="derecha">
+                <h2>Apuntes de la Clase</h2>
+                <ul class="texto2">
+                    <li>Insertar imágenes con <code>&lt;img&gt;</code>.</li>
+                    <li>Forma básica: <code>&lt;img src="ruta-de-la-imagen" alt="Descripción"&gt;</code>.</li>
+                    <li>El atributo <code>src</code> indica la ubicación de la imagen.</li>
+                    <li>El atributo <code>alt</code> es para accesibilidad y se muestra si no carga la imagen.</li>
+                    <li>Usar <code>width</code> y <code>height</code> para ajustar el tamaño.</li>
+                </ul>
+                <img src="MAPLE-TRIBU-IMAGEN.webp" alt="Ejemplo de Imágenes en HTML">
+            </section>
+        </div>
+    
+        <footer>
+            <h2>Resumen</h2>
+            <p>Las imágenes mejoran el contenido visual. Usar correctamente <code>&lt;img&gt;</code> con <code>src</code> y <code>alt</code> ayuda en accesibilidad y optimización. Elegir tamaño y formato adecuados es clave para cargar rápido.</p>
+        </footer>
+    
+        <section id="enlaces-html" class="titulo">
+            <h1>Enlaces en HTML</h1>
+        </section>
+        <div class="contenedor-secciones">
+            <section class="izquierda">
+                <h2>Ideas Principales</h2>
+                <ul class="texto1">
+                    <li>Crear enlaces internos con anclas.</li>
+                    <li>Los enlaces deben ser descriptivos.</li>
+                    <li><code>target="_blank"</code> abre el enlace en nueva pestaña.</li>
+                    <li>Los enlaces deben ser fáciles de identificar.</li>
+                </ul>
+            </section>
+            <section class="derecha">
+                <h2>Apuntes de la Clase</h2>
+                <ul class="texto2">
+                    <li>Los enlaces permiten navegar entre páginas o secciones.</li>
+                    <li>Crear hipervínculos con <code>&lt;a&gt;</code>.</li>
+                    <li>Forma básica de un enlace: <code>&lt;a href="url"&gt;Texto&lt;/a&gt;</code>.</li>
+                    <li>Para enlazar a una sección: <code>&lt;a href="#ancla"&gt;</code>.</li>
+                    <li>El atributo <code>target</code> define cómo abrirá el enlace.</li>
+                    <li>El texto del enlace debe ser claro para el usuario.</li>
+                </ul>
+                <img src="CTA_boton_hover_grande.webp" alt="Ejemplo de Enlaces en HTML">
+            </section>
+        </div>
+    
+        <footer>
+            <h2>Resumen</h2>
+            <p>Los enlaces son esenciales para la navegación web. Usar etiquetas claras y atributos adecuados mejora la experiencia del usuario. Asegúrate de que los enlaces sean fáciles de identificar.</p>
+        </footer>
+    
+        <section id="css" class="titulo">
+            <h1>CSS</h1>
+        </section>
+        <div class="contenedor-secciones">
+            <section class="izquierda">
+                <h2>Ideas Principales</h2>
+                <ul class="texto1">
+                    <li>CSS da estilo a las páginas HTML.</li>
+                    <li>Usa selectores para aplicar estilos a elementos.</li>
+                    <li>Las hojas de estilo pueden ser externas o internas.</li>
+                    <li>Con CSS puedes cambiar colores, fuentes y layout.</li>
+                </ul>
+            </section>
+            <section class="derecha">
+                <h2>Apuntes de la Clase</h2>
+                <ul class="texto2">
+                    <li>Forma básica de CSS: <code>selector { propiedad: valor; }</code>.</li>
+                    <li>Usar <code>color</code>, <code>background-color</code>, <code>font-size</code>.</li>
+                    <li>Usar clases (<code>.</code>) y ID (<code>#</code>) para seleccionar elementos.</li>
+                    <li>Las hojas de estilo pueden estar en la misma página o ser archivos separados.</li>
+                    <li>Incluir CSS en HTML: <code>&lt;link rel="stylesheet" href="estilos.css"&gt;</code>.</li>
+                </ul>
+                <img src="ejemplo-css.gif" alt="Ejemplo de CSS">
+            </section>
+        </div>
+    
+        <footer>
+            <h2>Resumen</h2>
+            <p>CSS es clave para mejorar la apariencia de las páginas. Selecciona elementos correctamente y aplica estilos para hacer el sitio atractivo y fácil de usar.</p>
+        </footer>    
+
+    <section id="proceso-diseno" class="titulo">
+        <h1>Proceso de Diseño</h1>
+    </section>
+    <div class="contenedor-secciones">
+        <section class="izquierda">
+            <h2>Ideas Principales</h2>
+            <ul class="texto1">
+                <li>El proceso de diseño web incluye investigar, planear y desarrollar.</li>
+                <li>Hacer wireframes es importante para ver cómo se verá el diseño.</li>
+                <li>El diseño debe centrarse en el usuario y ser fácil de usar.</li>
+                <li>Prototipar ayuda a recibir comentarios antes de terminar el desarrollo.</li>
+                <li>Es clave hacer pruebas y ajustes para que el producto funcione bien.</li>
+                <li>Documentar lo que se hace es útil para futuras mejoras.</li>
+            </ul>
+        </section>
+
+        <section class="derecha">
+            <h2>Apuntes de la Clase</h2>
+            <ul class="texto2">
+                <li>Primero, se identifican las necesidades y los objetivos del sitio.</li>
+                <li>Investigar ayuda a conocer al público que usará el sitio.</li>
+                <li>Fase de Análisis del Proyecto:
+                    <ul>
+                        <li>¿Para qué se necesita el sitio web?</li>
+                        <li>¿Qué buscarán los usuarios aquí?</li>
+                        <li>¿Qué servicios interactivos se agregarán? (como formularios de contacto)</li>
+                        <li>¿Qué imagen queremos dar a los usuarios?</li>
+                        <li>¿Qué impacto tendrá el sitio en ellos?</li>
+                    </ul>
+                </li>
+                <li>Información del Usuario:
+                    <ul>
+                        <li>Es importante saber su nivel socioeconómico, sexo, edad y ocupación.</li>
+                        <li>También hay que considerar sus hábitos de consumo y motivaciones.</li>
+                    </ul>
+                </li>
+                <li>Benchmarking:
+                    <ul>
+                        <li>Analizar 5 páginas similares para ver sus objetivos y qué tan efectivas son.</li>
+                        <li>Revisar si son fáciles de navegar y si el contenido está bien organizado.</li>
+                    </ul>
+                </li>
+                <li>Modelado del Usuario:
+                    <ul>
+                        <li>Crear "personas" y escenarios para entender mejor a los usuarios.</li>
+                    </ul>
+                </li>
+                <li>Diseño Conceptual:
+                    <ul>
+                        <li>Hacer bocetos o sketches para planificar visualmente el diseño.</li>
+                    </ul>
+                </li>
+                <li>Diseño Visual:
+                    <ul>
+                        <li>Crear maquetas que muestren cómo se verá el sitio final.</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="giphy.gif" alt="Ejemplo del Proceso de Diseño">
+        </section>
+    </div>
+
+    <footer>
+        <h2>Resumen</h2>
+        <p>El proceso de diseño web es muy importante y debe enfocarse en lo que necesitan los usuarios y los objetivos
+            del proyecto. Desde investigar al principio hasta implementar al final, cada paso cuenta para hacer un sitio
+            accesible y efectivo. La retroalimentación y las pruebas son esenciales para el éxito del diseño web.</p>
+    </footer>
